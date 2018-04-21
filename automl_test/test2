@@ -1,0 +1,22 @@
+
+
+
+Selector: <class 'btb.selection.uniform.Uniform'>
+Tuner: <class 'btb.tuning.uniform.Uniform'>
+Chose parameters for method "dt":
+	criterion = gini
+	max_depth = 6
+	max_features = 0.237870278333
+	min_samples_leaf = 3
+	min_samples_split = 4
+Judgment metric (f1, cv): 0.922 +- 0.208
+Best so far (classifier 1841): 1.000 +- 0.000
+Saving model in: models/pollution_1-a51ff7ef.model
+Saving metrics in: metrics/pollution_1-a51ff7ef.metric
+Saved classifier 1940.
+Computing on datarun 20
+Selector: <class 'btb.selection.uniform.Uniform'>
+Tuner: <class 'btb.tuning.uniform.Uniform'>
+Classifier budget has run out!
+Datarun 20 has ended.
+

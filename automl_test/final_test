@@ -1,0 +1,129 @@
+修改本地的config.py
+    DEFAULTS = {
+        'train_path': os.path.join(DATA_TEST_PATH, 'pollution_1.csv'),
+        'class_column': 'class',
+        'methods': ['logreg', 'dt', 'knn','svm','et','rf','gnb','bnb','mnb','gp','sgd','ada','mlp','pa'],
+        'priority': 1,
+        'budget_type': 'classifier',
+        'budget': 100,
+        'tuner': 'uniform',
+        'selector': 'uniform',
+        'r_minimum': 2,
+        'k_window': 3,
+        'gridding': 0,
+        'metric': 'f1',
+        'score_target': 'cv',
+    }
+
+本地终端运行：
+python scripts/enter_data.py
+创建datarun 32
+
+
+
+
+python scripts/worker.py
+Computing on datarun 32
+Selector: <class 'btb.selection.uniform.Uniform'>
+Tuner: <class 'btb.tuning.uniform.Uniform'>
+Chose parameters for method "pa":
+	C = 5.83215096834
+	_scale = True
+	fit_intercept = 0
+	loss = hinge
+	n_iter = 68
+	n_jobs = -1
+	shuffle = True
+Judgment metric (f1, cv): 1.000 +- 0.000
+New best score! Previous best (classifier 3041): 0.933 +- 0.267
+Saving model in: models/pollution_1-06df9fd5.model
+Saving metrics in: metrics/pollution_1-06df9fd5.metric
+Saved classifier 3043.
+Computing on datarun 32
+
+
+
+
+
+
+Computing on datarun 32
+Selector: <class 'btb.selection.uniform.Uniform'>
+Tuner: <class 'btb.tuning.uniform.Uniform'>
+Chose parameters for method "mlp":
+	_scale = True
+	activation = relu
+	alpha = 0.00439656669822
+	batch_size = auto
+	beta_1 = 0.929920752835
+	beta_2 = 0.824041027068
+	hidden_layer_sizes[0] = 263
+	learning_rate_init = 0.369420644771
+	len(hidden_layer_sizes) = 1
+	solver = adam
+Judgment metric (f1, cv): 0.933 +- 0.267
+Best so far (classifier 3043): 1.000 +- 0.000
+Saving model in: models/pollution_1-bb651a3c.model
+Saving metrics in: metrics/pollution_1-bb651a3c.metric
+Saved classifier 3140.
+Computing on datarun 32
+Selector: <class 'btb.selection.uniform.Uniform'>
+Tuner: <class 'btb.tuning.uniform.Uniform'>
+Classifier budget has run out!
+Datarun 32 has ended.
+No dataruns found. Exiting.
+
+
+得出best classifier_id =3043  method =pa 
+
+from atm.database import Database
+db=Database(dialect='sqlite',database='atm.db')
+model=db.load_model(classifier_id=3043)
+data=pd.read_csv('atm/data/test/test_img_data.csv')
+model.predict(data)
+
+results
+Out[85]: 
+0     ca 
+1     ca
+2     ca
+3     cb
+4     cb
+5     cb
+6     cb
+7     cb
+8     cb
+9     cb
+10    cb
+11    cb
+12    cc
+13    cc
+14    cc
+15    cc
+16    cc
+17    cc
+18    cc
+19    cc
+20    cc
+21    cd
+22    cd
+23    cd
+24    cd
+25    cd
+26    cb
+27    cd
+28    cb
+29    cd
+30    ca
+31    cb
+32    ca
+
+
+the marked people all have been recognized .but it can not recognized the unmarked people ,it recognized it as one of the marked people . 
+
+
+
+
+
+ 
+
+

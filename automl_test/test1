@@ -1,0 +1,40 @@
+lily@philip-computer:/home/actionteec/workspace/DeepLearning/FaceRecognition/to/atm$ python scripts/enter_data.py
+method logreg has 6 hyperpartitions
+method dt has 2 hyperpartitions
+method knn has 24 hyperpartitions
+Data entry complete. Summary:
+	Dataset ID: 19
+	Training data: /usr/local/lib/python2.7/dist-packages/atm-0.0.1-py2.7.egg/atm/data/test/pollution_1.csv
+	Test data: None
+	Datarun ID: 19
+	Hyperpartition selection strategy: uniform
+	Parameter tuning strategy: uniform
+	Budget: 100 (classifier)
+
+
+python scripts/worker.py
+
+Saved classifier 1839.
+Computing on datarun 19
+Selector: <class 'btb.selection.uniform.Uniform'>
+Tuner: <class 'btb.tuning.uniform.Uniform'>
+Chose parameters for method "knn":
+	_scale = True
+	algorithm = brute
+	metric = minkowski
+	n_neighbors = 18
+	p = 2
+	weights = distance
+Judgment metric (f1, cv): 0.733 +- 0.125
+Best so far (classifier 1747): 0.853 +- 0.259
+Saving model in: models/pollution_1-6eeb1364.model
+Saving metrics in: metrics/pollution_1-6eeb1364.metric
+Saved classifier 1840.
+Computing on datarun 19
+Selector: <class 'btb.selection.uniform.Uniform'>
+Tuner: <class 'btb.tuning.uniform.Uniform'>
+Classifier budget has run out!
+Datarun 19 has ended.
+No dataruns found. Exiting.
+
+
