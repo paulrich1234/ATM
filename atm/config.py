@@ -120,7 +120,7 @@ class RunConfig(Config):
     DEFAULTS = {
         'train_path': os.path.join(DATA_TEST_PATH, 'pollution_1.csv'),
         'class_column': 'class',
-        'methods': ['logreg', 'dt', 'knn'],
+        'methods': ['logreg', 'dt', 'knn','svm'],
         'priority': 1,
         'budget_type': 'classifier',
         'budget': 100,
@@ -523,7 +523,6 @@ def load_config(sql_path=None, run_path=None, aws_path=None, log_path=None, **kw
     run_path = run_path or kwargs.get('run_config')
     aws_path = aws_path or kwargs.get('aws_config')
     log_path = log_path or kwargs.get('log_config')
-
     # load any yaml config files for which paths were provided
     if sql_path:
         with open(sql_path) as f:

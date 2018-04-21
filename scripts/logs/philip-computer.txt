@@ -1,0 +1,133 @@
+2018-04-17 19:29:43,148 atm - INFO  method logreg has 6 hyperpartitions
+2018-04-17 19:29:43,149 atm - INFO  method dt has 2 hyperpartitions
+2018-04-17 19:29:43,149 atm - INFO  method knn has 24 hyperpartitions
+2018-04-17 19:29:46,471 atm - INFO  Data entry complete. Summary:
+2018-04-17 19:29:46,471 atm - INFO  	Dataset ID: 1
+2018-04-17 19:29:46,471 atm - INFO  	Training data: /usr/local/lib/python2.7/dist-packages/atm-0.0.1-py2.7.egg/atm/data/test/pollution_1.csv
+2018-04-17 19:29:46,472 atm - INFO  	Test data: None
+2018-04-17 19:29:46,472 atm - INFO  	Datarun ID: 1
+2018-04-17 19:29:46,472 atm - INFO  	Hyperpartition selection strategy: uniform
+2018-04-17 19:29:46,472 atm - INFO  	Parameter tuning strategy: uniform
+2018-04-17 19:29:46,472 atm - INFO  	Budget: 100 (classifier)
+2018-04-18 11:31:49,777 atm - INFO  method logreg has 6 hyperpartitions
+2018-04-18 11:31:49,779 atm - INFO  method dt has 2 hyperpartitions
+2018-04-18 11:31:49,780 atm - INFO  method knn has 24 hyperpartitions
+2018-04-18 11:31:53,097 atm - INFO  Data entry complete. Summary:
+2018-04-18 11:31:53,097 atm - INFO  	Dataset ID: 2
+2018-04-18 11:31:53,098 atm - INFO  	Training data: /usr/local/lib/python2.7/dist-packages/atm-0.0.1-py2.7.egg/atm/data/test/pollution_1.csv
+2018-04-18 11:31:53,098 atm - INFO  	Test data: None
+2018-04-18 11:31:53,098 atm - INFO  	Datarun ID: 2
+2018-04-18 11:31:53,098 atm - INFO  	Hyperpartition selection strategy: uniform
+2018-04-18 11:31:53,099 atm - INFO  	Parameter tuning strategy: uniform
+2018-04-18 11:31:53,099 atm - INFO  	Budget: 100 (classifier)
+2018-04-21 16:14:26,659 atm - INFO  method logreg has 6 hyperpartitions
+2018-04-21 16:14:26,676 atm - INFO  method dt has 2 hyperpartitions
+2018-04-21 16:14:26,676 atm - INFO  method knn has 24 hyperpartitions
+2018-04-21 16:14:30,334 atm - INFO  Data entry complete. Summary:
+2018-04-21 16:14:30,334 atm - INFO  	Dataset ID: 3
+2018-04-21 16:14:30,334 atm - INFO  	Training data: /usr/local/lib/python2.7/dist-packages/atm-0.0.1-py2.7.egg/atm/data/test/pollution_1.csv
+2018-04-21 16:14:30,335 atm - INFO  	Test data: None
+2018-04-21 16:14:30,335 atm - INFO  	Datarun ID: 3
+2018-04-21 16:14:30,335 atm - INFO  	Hyperpartition selection strategy: uniform
+2018-04-21 16:14:30,335 atm - INFO  	Parameter tuning strategy: uniform
+2018-04-21 16:14:30,335 atm - INFO  	Budget: 100 (classifier)
+2018-04-21 16:19:40,075 atm - INFO  method logreg has 6 hyperpartitions
+2018-04-21 16:19:40,075 atm - INFO  method dt has 2 hyperpartitions
+2018-04-21 16:19:40,076 atm - INFO  method knn has 24 hyperpartitions
+2018-04-21 16:19:43,550 atm - INFO  Data entry complete. Summary:
+2018-04-21 16:19:43,550 atm - INFO  	Dataset ID: 4
+2018-04-21 16:19:43,551 atm - INFO  	Training data: /usr/local/lib/python2.7/dist-packages/atm-0.0.1-py2.7.egg/atm/data/test/pollution_1.csv
+2018-04-21 16:19:43,551 atm - INFO  	Test data: None
+2018-04-21 16:19:43,551 atm - INFO  	Datarun ID: 4
+2018-04-21 16:19:43,551 atm - INFO  	Hyperpartition selection strategy: uniform
+2018-04-21 16:19:43,551 atm - INFO  	Parameter tuning strategy: uniform
+2018-04-21 16:19:43,551 atm - INFO  	Budget: 100 (classifier)
+2018-04-21 16:20:21,549 atm - INFO  method logreg has 6 hyperpartitions
+2018-04-21 16:20:21,549 atm - INFO  method dt has 2 hyperpartitions
+2018-04-21 16:20:21,550 atm - INFO  method knn has 24 hyperpartitions
+2018-04-21 16:20:25,062 atm - INFO  Data entry complete. Summary:
+2018-04-21 16:20:25,062 atm - INFO  	Dataset ID: 5
+2018-04-21 16:20:25,062 atm - INFO  	Training data: /usr/local/lib/python2.7/dist-packages/atm-0.0.1-py2.7.egg/atm/data/test/pollution_1.csv
+2018-04-21 16:20:25,062 atm - INFO  	Test data: None
+2018-04-21 16:20:25,062 atm - INFO  	Datarun ID: 5
+2018-04-21 16:20:25,062 atm - INFO  	Hyperpartition selection strategy: uniform
+2018-04-21 16:20:25,062 atm - INFO  	Parameter tuning strategy: uniform
+2018-04-21 16:20:25,062 atm - INFO  	Budget: 100 (classifier)
+2018-04-21 16:21:00,131 atm - INFO  method logreg has 6 hyperpartitions
+2018-04-21 16:21:00,131 atm - INFO  method dt has 2 hyperpartitions
+2018-04-21 16:21:00,132 atm - INFO  method knn has 24 hyperpartitions
+2018-04-21 16:21:03,665 atm - INFO  Data entry complete. Summary:
+2018-04-21 16:21:03,665 atm - INFO  	Dataset ID: 6
+2018-04-21 16:21:03,665 atm - INFO  	Training data: /usr/local/lib/python2.7/dist-packages/atm-0.0.1-py2.7.egg/atm/data/test/pollution_1.csv
+2018-04-21 16:21:03,665 atm - INFO  	Test data: None
+2018-04-21 16:21:03,665 atm - INFO  	Datarun ID: 6
+2018-04-21 16:21:03,665 atm - INFO  	Hyperpartition selection strategy: uniform
+2018-04-21 16:21:03,666 atm - INFO  	Parameter tuning strategy: uniform
+2018-04-21 16:21:03,666 atm - INFO  	Budget: 100 (classifier)
+2018-04-21 16:22:04,821 atm - INFO  method logreg has 6 hyperpartitions
+2018-04-21 16:22:04,821 atm - INFO  method dt has 2 hyperpartitions
+2018-04-21 16:22:04,822 atm - INFO  method knn has 24 hyperpartitions
+2018-04-21 16:22:08,319 atm - INFO  Data entry complete. Summary:
+2018-04-21 16:22:08,320 atm - INFO  	Dataset ID: 7
+2018-04-21 16:22:08,320 atm - INFO  	Training data: /usr/local/lib/python2.7/dist-packages/atm-0.0.1-py2.7.egg/atm/data/test/pollution_1.csv
+2018-04-21 16:22:08,320 atm - INFO  	Test data: None
+2018-04-21 16:22:08,320 atm - INFO  	Datarun ID: 7
+2018-04-21 16:22:08,320 atm - INFO  	Hyperpartition selection strategy: uniform
+2018-04-21 16:22:08,320 atm - INFO  	Parameter tuning strategy: uniform
+2018-04-21 16:22:08,320 atm - INFO  	Budget: 100 (classifier)
+2018-04-21 16:26:58,096 atm - INFO  method logreg has 6 hyperpartitions
+2018-04-21 16:26:58,096 atm - INFO  method dt has 2 hyperpartitions
+2018-04-21 16:26:58,097 atm - INFO  method knn has 24 hyperpartitions
+2018-04-21 16:27:01,769 atm - INFO  Data entry complete. Summary:
+2018-04-21 16:27:01,769 atm - INFO  	Dataset ID: 8
+2018-04-21 16:27:01,769 atm - INFO  	Training data: /usr/local/lib/python2.7/dist-packages/atm-0.0.1-py2.7.egg/atm/data/test/pollution_1.csv
+2018-04-21 16:27:01,769 atm - INFO  	Test data: None
+2018-04-21 16:27:01,769 atm - INFO  	Datarun ID: 8
+2018-04-21 16:27:01,769 atm - INFO  	Hyperpartition selection strategy: uniform
+2018-04-21 16:27:01,769 atm - INFO  	Parameter tuning strategy: uniform
+2018-04-21 16:27:01,770 atm - INFO  	Budget: 100 (classifier)
+2018-04-21 16:27:39,952 atm - INFO  method logreg has 6 hyperpartitions
+2018-04-21 16:27:39,952 atm - INFO  method dt has 2 hyperpartitions
+2018-04-21 16:27:39,953 atm - INFO  method knn has 24 hyperpartitions
+2018-04-21 16:27:43,513 atm - INFO  Data entry complete. Summary:
+2018-04-21 16:27:43,513 atm - INFO  	Dataset ID: 9
+2018-04-21 16:27:43,514 atm - INFO  	Training data: /usr/local/lib/python2.7/dist-packages/atm-0.0.1-py2.7.egg/atm/data/test/pollution_1.csv
+2018-04-21 16:27:43,514 atm - INFO  	Test data: None
+2018-04-21 16:27:43,514 atm - INFO  	Datarun ID: 9
+2018-04-21 16:27:43,514 atm - INFO  	Hyperpartition selection strategy: uniform
+2018-04-21 16:27:43,514 atm - INFO  	Parameter tuning strategy: uniform
+2018-04-21 16:27:43,514 atm - INFO  	Budget: 100 (classifier)
+2018-04-21 16:33:24,858 atm - INFO  method logreg has 6 hyperpartitions
+2018-04-21 16:33:24,859 atm - INFO  method dt has 2 hyperpartitions
+2018-04-21 16:33:24,860 atm - INFO  method knn has 24 hyperpartitions
+2018-04-21 16:33:28,586 atm - INFO  Data entry complete. Summary:
+2018-04-21 16:33:28,586 atm - INFO  	Dataset ID: 10
+2018-04-21 16:33:28,586 atm - INFO  	Training data: /usr/local/lib/python2.7/dist-packages/atm-0.0.1-py2.7.egg/atm/data/test/pollution_1.csv
+2018-04-21 16:33:28,586 atm - INFO  	Test data: None
+2018-04-21 16:33:28,586 atm - INFO  	Datarun ID: 10
+2018-04-21 16:33:28,586 atm - INFO  	Hyperpartition selection strategy: uniform
+2018-04-21 16:33:28,586 atm - INFO  	Parameter tuning strategy: uniform
+2018-04-21 16:33:28,587 atm - INFO  	Budget: 100 (classifier)
+2018-04-21 16:33:59,132 atm - INFO  method logreg has 6 hyperpartitions
+2018-04-21 16:33:59,133 atm - INFO  method dt has 2 hyperpartitions
+2018-04-21 16:33:59,134 atm - INFO  method knn has 24 hyperpartitions
+2018-04-21 16:34:02,682 atm - INFO  Data entry complete. Summary:
+2018-04-21 16:34:02,682 atm - INFO  	Dataset ID: 11
+2018-04-21 16:34:02,683 atm - INFO  	Training data: /usr/local/lib/python2.7/dist-packages/atm-0.0.1-py2.7.egg/atm/data/test/pollution_1.csv
+2018-04-21 16:34:02,683 atm - INFO  	Test data: None
+2018-04-21 16:34:02,683 atm - INFO  	Datarun ID: 11
+2018-04-21 16:34:02,683 atm - INFO  	Hyperpartition selection strategy: uniform
+2018-04-21 16:34:02,683 atm - INFO  	Parameter tuning strategy: uniform
+2018-04-21 16:34:02,683 atm - INFO  	Budget: 100 (classifier)
+2018-04-21 16:37:11,701 atm - INFO  method logreg has 6 hyperpartitions
+2018-04-21 16:37:11,701 atm - INFO  method dt has 2 hyperpartitions
+2018-04-21 16:37:11,702 atm - INFO  method knn has 24 hyperpartitions
+2018-04-21 16:37:11,703 atm - INFO  method svm has 4 hyperpartitions
+2018-04-21 16:37:15,654 atm - INFO  Data entry complete. Summary:
+2018-04-21 16:37:15,654 atm - INFO  	Dataset ID: 12
+2018-04-21 16:37:15,654 atm - INFO  	Training data: /usr/local/lib/python2.7/dist-packages/atm-0.0.1-py2.7.egg/atm/data/test/pollution_1.csv
+2018-04-21 16:37:15,654 atm - INFO  	Test data: None
+2018-04-21 16:37:15,654 atm - INFO  	Datarun ID: 12
+2018-04-21 16:37:15,655 atm - INFO  	Hyperpartition selection strategy: uniform
+2018-04-21 16:37:15,655 atm - INFO  	Parameter tuning strategy: uniform
+2018-04-21 16:37:15,655 atm - INFO  	Budget: 100 (classifier)

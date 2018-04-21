@@ -8,9 +8,20 @@ class_column: class
 ## Datarun arguments
 dataset_id: 
 methods: 
-    - rf
     - logreg
+    - svm
+    - sgd
     - dt
+    - et
+    - rf
+    - gnb
+    - mnb
+    - bnb
+    - gp
+    - pa
+    - knn
+    - mlp
+    - ada
 # priority (higher number is more important)
 priority: 1
 # Should there be a classifier or walltime budget?

@@ -13,6 +13,7 @@ from atm.enter_data import enter_data
 warnings.filterwarnings("ignore")
 
 
+#PROJECT_ROOT='/home/actionteec/workspace/DeepLearning/FaceRecognition/to/atm/atm/config/templates'
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="""
 Creates a dataset (if necessary) and a datarun and adds them to the ModelHub.
@@ -34,6 +35,7 @@ folder for more information. """)
 
     args = parser.parse_args()
 
+
     # default logging config is different if initialized from the command line
     if args.log_config is None:
         args.log_config = os.path.join(PROJECT_ROOT,
@@ -46,6 +48,5 @@ folder for more information. """)
                                                          log_path=args.log_config,
                                                          **vars(args))
     initialize_logging(log_conf)
-
     # create and save the dataset and datarun
     enter_data(sql_conf, run_conf, aws_conf, args.run_per_partition)

@@ -1,5 +1,5 @@
 # this will be overridden by the test script
-train_path: 
+train_path: /home/lily/Desktop/manue/train_data.csv
 test_path:
 data_description: 
 class_column: class

@@ -1,5 +1,5 @@
 # this will be overridden by the test script
-train_path:
+train_path: atm/data/test/adult_data_300.csv
 test_path:
 data_description:
 class_column: class
@@ -7,8 +7,19 @@ class_column: class
 # use every algorithm we have
 methods:
     - logreg
+    - svm
+    - sgd
     - dt
+    - et
+    - rf
+    - gnb
+    - mnb
+    - bnb
+    - gp
+    - pa
     - knn
+    - mlp
+    - ada
 # priority (higher number is more important)
 priority: 1
 # Should there be a classifier or walltime budget?
